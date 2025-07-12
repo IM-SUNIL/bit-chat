@@ -688,6 +688,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1.5rem;
     margin-bottom: 1rem;
     overflow-x: auto;
+    word-wrap: break-word;
 }
 
 .code-block pre {
@@ -696,6 +697,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent-green);
     font-size: 0.9rem;
     line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 .tech-list {
@@ -1039,14 +1042,28 @@ h1, h2, h3, h4, h5, h6 {
         gap: 2rem;
     }
     
+    .whitepaper-section h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+    
     .code-block {
         padding: 1rem;
         font-size: 0.8rem;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+    
+    .code-block pre {
+        font-size: 0.75rem;
+        line-height: 1.4;
     }
     
     .tech-list li {
         padding: 0.4rem 0;
         font-size: 0.9rem;
+        padding-left: 1.2rem;
     }
     
     /* Footer */
@@ -1202,13 +1219,26 @@ h1, h2, h3, h4, h5, h6 {
         padding: 2rem 0;
     }
     
+    .whitepaper-section h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
+    }
+    
     .code-block {
         padding: 0.8rem;
         font-size: 0.7rem;
+        border-radius: 6px;
+    }
+    
+    .code-block pre {
+        font-size: 0.65rem;
+        line-height: 1.3;
     }
     
     .tech-list li {
         font-size: 0.8rem;
+        padding-left: 1rem;
+        padding: 0.3rem 0;
     }
     
     .footer {
