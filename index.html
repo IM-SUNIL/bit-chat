@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download Bitchat – Offline Mesh Chat App by Jack Dorsey. Chat without internet using Bluetooth mesh networking. Privacy-first, censorship-resistant messaging.">
+    <meta name="keywords" content="bitchat, jack dorsey, offline chat, bluetooth mesh, privacy, messaging, decentralized">
+    <meta name="author" content="Bit-Chat.in">
+    <meta property="og:title" content="Bitchat - Chat Without the Internet. Literally.">
+    <meta property="og:description" content="Privacy-first messaging platform that works completely offline using Bluetooth mesh networking.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bit-chat.in">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bitchat - Offline Mesh Chat">
+    <meta name="twitter:description" content="Chat without WiFi, SIM, or mobile data using Bluetooth LE mesh networking.">
+    
+    <title>Bitchat - Chat Without the Internet. Literally. | Jack Dorsey's Offline Mesh Chat App</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪐</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🪐</span>
+                <span class="logo-text">Bitchat</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#features">Features</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="mesh-animation"></div>
+            <div class="glitch-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Chat Without the Internet.</span>
+                    <span class="title-line highlight">Literally.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Bitchat uses Bluetooth-based mesh networking to create a truly serverless, 
+                    censorship-resistant chat app.
+                </p>
+                <div class="hero-cta">
+                    <button class="cta-button disabled">
+                        <span class="button-text">Join Beta via TestFlight</span>
+                        <span class="button-badge">FULL</span>
+                    </button>
+                    <p class="cta-note">iOS beta is currently full • Android coming soon</p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="chat-interface">
+                            <div class="chat-header">
+                                <span class="status-indicator online"></span>
+                                <span>Mesh Network Active</span>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message received">
+                                    <span class="message-text">Connected to 3 devices</span>
+                                </div>
+                                <div class="message sent">
+                                    <span class="message-text">Hello mesh world! 🌐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">What is Bitchat?</h2>
+                    <p class="about-description">
+                        Bitchat is a privacy-first messaging platform that works completely offline. 
+                        Built by Jack Dorsey in a weekend using AI coding assistant 'Goose,' Bitchat 
+                        lets you chat without WiFi, SIM, or mobile data. It uses Bluetooth LE mesh 
+                        networking to create peer-to-peer message relay systems.
+                    </p>
+                    <div class="about-badges">
+                        <div class="badge">
+                            <span class="badge-icon">⚡</span>
+                            <span class="badge-text">Weekend vibe-coded</span>
+                        </div>
+                        <div class="badge">
+                            <span class="badge-icon">🤖</span>
+                            <span class="badge-text">AI-assisted by Goose</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-logos">
+                    <div class="logo-grid">
+                        <div class="logo-item">
+                            <span class="logo-text">Block</span>
+                        </div>
+                        <div class="logo-item">
+                            <span class="logo-text">Twitter</span>
+                        </div>
+                        <div class="logo-item">
+                            <span class="logo-text">TestFlight</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="workflow">
+                <div class="workflow-step">
+                    <div class="step-icon">📡</div>
+                    <h3>BLE Mesh Network</h3>
+                    <p>Bluetooth Low Energy creates a mesh network between nearby devices</p>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-icon">🔄</div>
+                    <h3>Store & Forward</h3>
+                    <p>Messages hop from device to device using encrypted relay</p>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-icon">🔐</div>
+                    <h3>End-to-End Encryption</h3>
+                    <p>Curve25519 + AES-GCM ensures message security</p>
+                </div>
+            </div>
+            <div class="tech-specs">
+                <div class="spec-item">
+                    <span class="spec-label">Range:</span>
+                    <span class="spec-value">300m+</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Encryption:</span>
+                    <span class="spec-value">Curve25519 + AES-GCM</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Channels:</span>
+                    <span class="spec-value">IRC-style + DMs</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Messages:</span>
+                    <span class="spec-value">Disappearing + Panic Mode</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✅</div>
+                    <h3>Works Fully Offline</h3>
+                    <p>No internet connection required</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚫</div>
+                    <h3>No Account Needed</h3>
+                    <p>Anonymous by design</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔥</div>
+                    <h3>Panic Mode Wipe</h3>
+                    <p>Instant data deletion</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>IRC Chatrooms & DMs</h3>
+                    <p>Classic chat experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🕵️‍♂️</div>
+                    <h3>Dummy Traffic Obfuscation</h3>
+                    <p>Traffic analysis resistance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏳</div>
+                    <h3>Disappearing Messages</h3>
+                    <p>Auto-delete after time</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">₿</div>
+                    <h3>Bitcoin TX Support</h3>
+                    <p>Coming soon</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Open Source Protocol</h3>
+                    <p>Transparent and auditable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <h2 class="section-title">Screenshots</h2>
+            <div class="screenshots-grid">
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <span class="placeholder-icon">💬</span>
+                        <span class="placeholder-text">Chat UI</span>
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <span class="placeholder-icon">📡</span>
+                        <span class="placeholder-text">Bluetooth Device Map</span>
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <span class="placeholder-icon">🚨</span>
+                        <span class="placeholder-text">Panic Mode</span>
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <span class="placeholder-icon">📋</span>
+                        <span class="placeholder-text">IRC Channel Browser</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Does it work without internet?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, completely offline over Bluetooth Mesh.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I send files?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Not in the current version.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is my data safe?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All messages are end-to-end encrypted using Curve25519 and AES-256.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I join the beta?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>iOS beta is currently full; Android is coming soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Whitepaper Section -->
+    <section class="whitepaper" id="whitepaper">
+        <div class="container">
+            <h2 class="section-title">Technical Whitepaper</h2>
+            <div class="whitepaper-content">
+                <div class="whitepaper-section">
+                    <h3>Protocol Stack</h3>
+                    <div class="code-block">
+                        <pre><code>Application Layer: Bitchat Protocol
+Transport Layer: Bluetooth LE Mesh
+Network Layer: Peer-to-Peer Relay
+Security Layer: Curve25519 + AES-GCM
+Physical Layer: Bluetooth 5.0+</code></pre>
+                    </div>
+                </div>
+                <div class="whitepaper-section">
+                    <h3>Encryption Details</h3>
+                    <ul class="tech-list">
+                        <li>Key Exchange: X25519 (Curve25519)</li>
+                        <li>Message Encryption: AES-256-GCM</li>
+                        <li>Perfect Forward Secrecy: Yes</li>
+                        <li>Post-Quantum Resistance: Planned</li>
+                    </ul>
+                </div>
+                <div class="whitepaper-section">
+                    <h3>Future Upgrades</h3>
+                    <ul class="tech-list">
+                        <li>Wi-Fi Direct mesh networking</li>
+                        <li>QR code channel joining</li>
+                        <li>Offline Bitcoin transaction support</li>
+                        <li>Cross-platform compatibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-disclaimer">
+                    <p><strong>🚨 Disclaimer:</strong> Bit-Chat.in is a parody/informational website created for educational and satirical purposes. We are not associated with Bitchat, Jack Dorsey, or any official organization.</p>
+                    <p>Not affiliated with Twitter or Block Inc.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms</a>
+                    <a href="#" class="footer-link">Report Fake Apps</a>
+                </div>
+                <div class="footer-signature">
+                    <p>Made for decentralized rebels 🛸</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
