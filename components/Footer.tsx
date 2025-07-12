@@ -11,6 +11,7 @@ export default function Footer() {
             <a href="#" className="footer-link">Privacy Policy</a>
             <a href="#" className="footer-link">Terms</a>
             <a href="#" className="footer-link">Report Fake Apps</a>
+            <a href="/sitemap.xml" className="footer-link">Sitemap</a>
           </div>
           <div className="footer-signature">
             <p>Made for decentralized rebels 🛸</p>
