@@ -16,37 +16,58 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://bit-chat.in'),
-  title: 'Bitchat - Chat Without the Internet. Literally. | Jack Dorsey\'s Offline Mesh Chat App',
-  description: 'Download Bitchat – Offline Mesh Chat App by Jack Dorsey. Chat without internet using Bluetooth mesh networking. Privacy-first, censorship-resistant messaging.',
-  keywords: 'bitchat, jack dorsey, offline chat, bluetooth mesh, privacy, messaging, decentralized',
-  authors: [{ name: 'Bit-Chat.in' }],
+  title: 'Bit Chat - Offline Bluetooth Chat App | Chat Without Internet',
+  description: 'Bit Chat is an offline, end-to-end encrypted Bluetooth mesh chat app. Chat without WiFi, SIM, or mobile data using Bluetooth LE mesh networking. Privacy-first messaging.',
+  keywords: 'bit chat, offline chat, bluetooth mesh, privacy, messaging, decentralized, end-to-end encryption, mesh networking, offline communication',
+  authors: [{ name: 'Bit Chat Team' }],
+  creator: 'Bit Chat Team',
+  publisher: 'Bit Chat',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: 'Bitchat - Chat Without the Internet. Literally.',
-    description: 'Privacy-first messaging platform that works completely offline using Bluetooth mesh networking.',
+    title: 'Bit Chat - Offline Bluetooth Chat App',
+    description: 'Chat without the internet using Bluetooth mesh networking. Privacy-first, end-to-end encrypted messaging.',
     type: 'website',
     url: 'https://bit-chat.in',
-    siteName: 'Bitchat',
+    siteName: 'Bit Chat',
+    locale: 'en_IN',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Bitchat - Offline Mesh Chat App',
+        alt: 'Bit Chat - Offline Bluetooth Chat App',
+        type: 'image/png',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bitchat - Offline Mesh Chat',
+    title: 'Bit Chat - Offline Bluetooth Chat App',
     description: 'Chat without WiFi, SIM, or mobile data using Bluetooth LE mesh networking.',
     images: ['/og-image.png'],
+    creator: '@bitchat',
+    site: '@bitchat',
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   alternates: {
     canonical: 'https://bit-chat.in',
+  },
+  verification: {
+    google: 'your-google-verification-code',
   },
 }
 

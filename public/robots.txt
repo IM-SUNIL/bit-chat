@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Host
+Host: https://bit-chat.in
+
+# Sitemaps
+Sitemap: https://bit-chat.in/sitemap.xml
