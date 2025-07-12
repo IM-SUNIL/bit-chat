@@ -17,8 +17,10 @@ export default function Navigation() {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
-          <span className="logo-icon">🪐</span>
-          <span className="logo-text">Bitchat</span>
+          <a href="/" className="logo-link">
+            <span className="logo-icon">🪐</span>
+            <span className="logo-text">Bit Chat</span>
+          </a>
         </div>
         <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           <a href="#about" onClick={closeMenu}>About</a>
