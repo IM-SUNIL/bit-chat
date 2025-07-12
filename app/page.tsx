@@ -84,7 +84,7 @@ export default function Home() {
     const glitchOverlay = document.querySelector('.glitch-overlay')
     if (glitchOverlay) {
       const interval = setInterval(() => {
-        glitchOverlay.style.opacity = (Math.random() * 0.2).toString()
+        (glitchOverlay as HTMLElement).style.opacity = (Math.random() * 0.2).toString()
       }, 2000)
 
       return () => clearInterval(interval)
