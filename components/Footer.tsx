@@ -8,6 +8,11 @@ export default function Footer() {
             <p>Not affiliated with Twitter or Block Inc.</p>
           </div>
           <div className="footer-links">
+            <a href="/about" className="footer-link">About</a>
+            <a href="/features" className="footer-link">Features</a>
+            <a href="/comparison" className="footer-link">Comparison</a>
+            <a href="/faq" className="footer-link">FAQ</a>
+            <a href="/blog" className="footer-link">Blog</a>
             <a href="#" className="footer-link">Privacy Policy</a>
             <a href="#" className="footer-link">Terms</a>
             <a href="#" className="footer-link">Report Fake Apps</a>
