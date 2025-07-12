@@ -97,6 +97,14 @@ h1, h2, h3, h4, h5, h6 {
     background-clip: text;
 }
 
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
