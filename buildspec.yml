@@ -3,7 +3,9 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing Docker...
+      - echo Installing prerequisites...
+      - yum install -y docker
+      - service docker start
   pre_build:
     commands:
       - echo Pre build phase
@@ -12,7 +14,7 @@ phases:
       - echo Building Docker image
       - docker build -t myapp .
       - echo Running Docker container
-      - docker run myapp
+      - docker run -d -p 3000:3000 myapp
   post_build:
     commands:
-      - echo Build completed
+      - echo Build completed successfully
