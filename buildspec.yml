@@ -3,9 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing prerequisites...
-      - yum install -y docker
-      - service docker start
+      - echo Using Ubuntu environment, Docker already available
   pre_build:
     commands:
       - echo Pre build phase
