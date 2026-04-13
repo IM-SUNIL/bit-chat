@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing Docker...
+  pre_build:
+    commands:
+      - echo Pre build phase
+  build:
+    commands:
+      - echo Building Docker image
+      - docker build -t myapp .
+      - echo Running Docker container
+      - docker run myapp
+  post_build:
+    commands:
+      - echo Build completed
